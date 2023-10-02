@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    min-height: 619px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(199, 0, 57) 50%,rgb(223, 222, 222) 50%);
+    
+}
+.overall{
+     padding: 45px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.first{
+    width: 40%;
+    background-color:white;
+    padding: 40px 30px 20px 30px;
+
+}
+.first h1{
+    padding-bottom: 20px;
+    /* width: 400px; */
+}
+.first label{
+    display:block;
+    padding-top: 15px;
+    /* width: 400px; */
+    
+}
+.first input{
+    border: none;
+    border-bottom: 1px solid black;
+   
+}
+.first textarea{
+    display: block;
+     border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.first .aa{
+    display:inline-block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.first .bb{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    
+}
+.first button{
+    width: 100%;
+    background-color:rgb(199, 0, 57);
+    color: white;
+    padding: 25px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: none;
+}
+.first span{
+    color:rgb(199, 0, 57);
+}
+
+/* ...... second ....... */
+.second{
+    width: 40%;
+    background-color:white;
+}
+.second h2{
+    padding-bottom: 18px;
+    
+}
+.second .litestar{
+    display: flex;
+    padding: 20px;
+  
+    
+}
+.second .star{
+    padding: 20px;
+}
+.second i{
+    font-size: 50px;
+    padding: 20px;
+    color: rgb(199, 0, 57);
+    
+    
+}
+.second .stark{
+   
+}
+.second p{
+
+}
+
+                      /* media code */
+
+ /* .... small size.... */
+
+
+@media screen and (min-width:300px) and (max-width:375px) {
+    .overall{
+        flex-direction: column;
+       
+    }
+    .first{
+     width:100%;
+     
+     padding: 20px 20px 20px 20px;
+    }
+    .first h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .first .aa{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    .first button{
+        padding: 17px;
+    }
+     /* ...second... */
+
+    .second{
+        width: 100%;
+     } 
+     .second h2{
+        font-size: 15px;
+     }
+     .second .litestar{
+        flex-direction: column;
+        padding: 10px;
+     }
+  
+   
+
+}
+   /* ... medium to large... */
+
+
+@media screen and (min-width:375px) and (max-width:765px) {
+    .overall{
+        flex-direction: column;
+       
+    }
+    .first{
+        width:100%;
+        
+        padding: 20px 20px 20px 20px;
+       }
+       .first h1{
+           font-size: 22px;
+           padding-bottom: 10px;
+           text-align: center;
+       }
+       .first .aa{
+           padding-bottom: 20px;
+           padding-top: 20px;
+           font-size: 14px;
+       }
+       .first button{
+           padding: 17px;
+       }
+
+         /* ...second... */
+
+    .second{
+        width: 100%;
+     } 
+     .second h2{
+        font-size: 15px;
+        
+        padding-bottom: 23px;
+     }
+     .second .litestar{
+        text-align: justify;
+        
+        padding: 10px;
+     }
+
+}
+  /* ... tablet... */
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    } 
+    .second h2{
+    font-size: 15px;
+
+    
+}
+.first h1{
+    text-align: center;
+}
+.second .litestar{
+        text-align:left;
+        padding: 40px 10px 40px 10px;
+}
+.second i{
+
+
+    padding: 11px;
+}
+.second .star{
+    padding: 0px;
+}
+    
+}
+
+/* laptop */
+
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .first{
+        width: 100%;
+    }
+    .second{
+        width: 100%;
+    } 
+}
